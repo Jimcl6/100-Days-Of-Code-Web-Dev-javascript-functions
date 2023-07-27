@@ -27,7 +27,11 @@ let job = {
 //      eg. 1 / 1
 //
 
-let adultYears = age - 18;
+function calculateAdultYears() {
+    return age - 18;
+}
+
+let adultYears = calculateAdultYears();
 
 // -------------------------------------------------------------------------
 // Self code exercise section.
